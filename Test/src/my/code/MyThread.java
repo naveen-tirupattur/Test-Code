@@ -25,7 +25,7 @@ public class MyThread implements Runnable {
 	public void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Thread: "+getName());		
-		System.out.println("Singleton Instance: "+Singleton.getInstance());
+		System.out.println("Singleton Instance: "+Singleton.getInstance());		
 	}
 	
 	

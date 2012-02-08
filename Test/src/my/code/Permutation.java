@@ -46,5 +46,7 @@ public class Permutation {
 		else
 			for(int i=0;i<n;i++)
 				permutation1(startString+endString.charAt(i),endString.substring(0,i)+endString.substring(i+1,n));
+		
 	}
+	
 }
